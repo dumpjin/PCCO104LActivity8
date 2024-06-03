@@ -34,19 +34,19 @@ namespace BodybuildingApp
 
     public abstract class Bodybuilder
     {
-        // Public properties
+        
         public string Comp { get; set; }
         public double Height { get; set; }
         public string Country { get; set; }
 
-        // Protected properties
+        
         protected string Won { get; set; }
         protected double Weight { get; set; }
 
-        // Private properties
+        
         private string Nickname { get; set; }
 
-        // Constructors
+        
         public Bodybuilder() { }
 
         public Bodybuilder(double weight)
@@ -64,7 +64,7 @@ namespace BodybuildingApp
             Comp = comp;
         }
 
-        // Methods
+        
         public abstract void ShowAchievement();
 
         public void SetNickname(string nickname)
